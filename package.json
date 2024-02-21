@@ -4,22 +4,22 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "npm run build && next export -o _static"
   },
   "dependencies": {
+    "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
-    "next": "^14.1.0",
+    "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^14.1.0",
     "autoprefixer": "^10.4.13",
-    "eslint": "^8.56.0",
+    "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-next": "^14.1.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.10",
