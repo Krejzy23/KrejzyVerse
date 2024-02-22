@@ -1,8 +1,9 @@
 'use client';
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 import { socials } from '../constants';
 
 const Footer = () => (
@@ -19,7 +20,7 @@ const Footer = () => (
       >
         <h4 className="font-bold md:text-[64px] text-[44px] text-white ">Enter the Metaverse</h4>
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
-          <img
+          <Image
             src="/headset.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
@@ -35,7 +36,7 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-white opacity-50">Copyright © 2023 - 2024 KrejzyVerse. All rights reserved.</p>
           <div className="flex gap-4">
             {socials.map((social) => (
-              <img 
+              <Image
                 key={social.name}
                 src={social.url}
                 alt={social.name}
@@ -46,7 +47,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  
+
   </motion.footer>
 );
 

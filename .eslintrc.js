@@ -38,7 +38,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
-    'jsx-quotes':[2,'prefer-single'],
     'react/function-component-definition': [
       2,
       {

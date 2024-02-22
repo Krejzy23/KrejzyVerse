@@ -10,7 +10,6 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
-    "eslint-config-next": "14.1.0",
     "framer-motion": "^7.6.7",
     "next": "^14.1.0",
     "react": "18.2.0",
@@ -21,6 +20,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^14.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
