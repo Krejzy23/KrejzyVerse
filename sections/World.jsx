@@ -59,7 +59,6 @@ const World = () => (
           />
         </div>
       </motion.div>
-
     </motion.div>
   </section>
 );
